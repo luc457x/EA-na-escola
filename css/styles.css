@@ -1,13 +1,104 @@
-.container {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    min-height: 200px;
+/* Variables */
+:root {
+  --header-height: 4.5dvh;
+  --color-1: #228b22;
+  --color-2: #990e05;
+  --color-3: #240604;
+}
+/* Styles */
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-1);
+  z-index: 1000;
+  height: var(--header-height);
+  border-radius: 0 0 5% 5%;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 90%;
+}
+header div * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90%;
+}
+body {
+  background-image: url("../img/bg-w.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: calc(var(--header-height) + 2dvh);
 }
 button {
-    margin: 5px;
-    padding: 10px 15px;
-    cursor: pointer;
+  border-style: outset;
+  border-top-color: var(--color-3);
+  border-left-color: var(--color-3);
+  border-right-color: var(--color-2);
+  border-bottom-color: var(--color-2);
+  border-radius: 12px;
+  background-color: var(--color-2);
+  width: 10%;
+  aspect-ratio: 1/1;
 }
-
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-1);
+  z-index: 1000;
+  height: 3dvh;
+  border-radius: 5% 5% 0 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1dvh 5dvw 5dvh 5dvw;
+  padding: 1dvh;
+  border: 1px solid;
+  min-height: 85dvh;
+  min-width: 80dvw;
+  max-height: 85dvh;
+  max-width: 80dvw;
+  background-color: #ffffff7f;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  overflow-y: auto;
+}
+/* Responsive styles*/
+@media (max-width: 480px) {
+  body {
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    font-size: small;
+  }
+  button {
+    width: 20%;
+    aspect-ratio: 1/1;
+  }
+}
+@media (min-width: 481px) and (max-width: 834px) {
+  body {
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    background-attachment: fixed;
+  }
+}
 /* End of styles.css */
