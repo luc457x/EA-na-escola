@@ -125,12 +125,6 @@ footer {
     width: 20%;
     aspect-ratio: 1/1;
   }
-  .contatos img {
-    width: 40%;
-  }
-  .contatos-item img {
-    width: 10%;
-  }
 }
 @media (min-width: 481px) and (max-width: 834px) {
   html {

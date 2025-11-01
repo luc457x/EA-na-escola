@@ -42,18 +42,13 @@ function carregarConteudo(pagina) {
                     </div>
                 `,
                 'contato': `
-                <div class="contatos">
-                    <h1>Contato</h1>
-                    <p>Para mais informações sobre o projeto, entre em contato comigo, será um prazer ajudar!</p>
-                      <div class="contatos-item">
-                        <img src="../img/wpp.png" alt="whatsapp">
-                        <a href="https://api.whatsapp.com/send?phone=5522998923719" target="_blank">+55 (22) 99892-3719</a>
-                      </div>
-                      <div class="contatos-item">
-                        <img src="../img/e-mail.webp" alt="e-mail">
-                        <a href="mailto:contato@lucas7x.win" target="_blank">contato@lucas7x.win</a>
-                      </div>
-                      <img src="../img//qr.gif" alt="QR Code">
+                <h1>Contato</h1>
+                  <p>Para mais informações sobre o projeto, entre em contato pelos meios abaixo, será um prazer ajudar!</p>
+                  <div>
+                    <a href="https://api.whatsapp.com/send?phone=5522998923719" target="_blank"><span>📞</span> +55 (22) 99892-3719</a>
+                  </div>
+                  <div>
+                    <a href="mailto:contato@lucas7x.win" target="_blank"><span>📬</span> contato@lucas7x.win</a>
                   </div>
                 `
             };
