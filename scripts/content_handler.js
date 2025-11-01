@@ -45,10 +45,10 @@ function carregarConteudo(pagina) {
                 <h1>Contato</h1>
                   <p>Para mais informações sobre o projeto, entre em contato pelos meios abaixo, será um prazer ajudar!</p>
                   <div>
-                    <a href="https://api.whatsapp.com/send?phone=5522998923719" target="_blank"><span>📞</span> +55 (22) 99892-3719</a>
+                    <a href="https://api.whatsapp.com/send?phone=5522998923719" target="_blank"><h2>📞 +55 (22) 99892-3719</h2></a>
                   </div>
                   <div>
-                    <a href="mailto:contato@lucas7x.win" target="_blank"><span>📬</span> contato@lucas7x.win</a>
+                    <a href="mailto:contato@lucas7x.win" target="_blank"><h2>📬 contato@lucas7x.win</h2></a>
                   </div>
                 `
             };
